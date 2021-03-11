@@ -1,0 +1,15 @@
+.header-content {
+  width: 90%;
+  margin: 0 auto;
+}
+.header-links a:hover {
+  color: #1c2b4a;
+  background: white;
+  transition: 0.3s;
+}
+.logo {
+  background: transparent;
+  background-repeat: no-repeat;
+  width: 145px;
+  height: 50px;
+}

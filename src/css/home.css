@@ -1,0 +1,100 @@
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #1c2b4a;
+    color: white;
+    z-index: 99;
+  }
+  .header-logo {
+    height: 50px;
+    float: left;
+    width: 600px;
+    overflow: hidden;
+    margin: 10px;
+  }
+  .header-logo img {
+    height: 50px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .header-logo > * {
+    float: left;
+  }
+  .header-text {
+    width: 345px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .header-text p {
+    height: 25px;
+    line-height: 25px;
+  }
+  .header-links {
+    float: right;
+    height: 70px;
+  }
+  .header-links a {
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    color: white;
+    padding: 0 20px;
+  }
+  .header-links button {
+    height: 70px;
+    float: right;
+    line-height: 70px;
+    color: white;
+    padding: 0 20px;
+  }
+  .main-conatiner {
+    margin: 20px auto;
+    width: 90%;
+  }
+  .home-info p {
+    margin: 10px 0;
+  }
+  
+.home {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  .home-left {
+    background: #1c2b4a;
+    color: white;
+  }
+  .home-left p {
+    width: 90%;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14pt;
+    margin: 0 auto;
+  }
+  
+.home-left a {
+    width: 90%;
+    text-align: right;
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    padding: 0 5%;
+  }
+  .home-right {
+    height: 400px;
+  }
+  
+  a {
+  }
+  .home-left a:hover {
+    color: #1c2b4a;
+    background: white;
+    transition: 0.3s;
+  }
